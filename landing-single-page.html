@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+    <nav>
+      <a data-scroll href="#0">SOLID</a>
+
+      <a data-scroll href="#1">Single responsibility</a>
+      <a data-scroll href="#2">Open-closed</a>
+      <a data-scroll href="#3">Liskov substitution</a>
+      <a data-scroll href="#4">Interface segregation</a>
+      <a data-scroll href="#5">Dependency inversion</a>
+    </nav>
+    <div class="contentWrapper background-home" id="0">
+      <div class="stuff">
+        <h1>SOLID</h1>
+        <p><strong> Principles of object-oriented programming.</strong></p>
+        <p>
+          The SOLID acronym was introduced later, around 2004, by Michael
+          Feathers.Although the SOLID principles apply to any object-oriented
+          design, they can also form a core philosophy for methodologies such as
+          agile development or adaptive software development.
+        </p>
+      </div>
+    </div>
+    <div class="contentWrapper background-single" id="1">
+      <div class="stuff">
+        <h1>The Single-responsibility principle</h1>
+        <p>
+          "There should never be more than one reason for a class to change." In
+          other words, every class should have only one responsibility.
+        </p>
+      </div>
+    </div>
+    <div class="contentWrapper background-green" id="2">
+      <div class="stuff">
+        <h1>The Open–closed principle</h1>
+        <p>
+          "Software entities ... should be open for extension, but closed for
+          modification."[7]
+        </p>
+      </div>
+    </div>
+    <div class="contentWrapper background-blue" id="3">
+      <div class="stuff">
+        <h1>The Liskov substitution principle</h1>
+        <p>
+          Objects in a program should be replaceable with instances of their
+          subtypes without altering the correctness of that program. See also
+          design by contract.
+        </p>
+      </div>
+    </div>
+    <div class="contentWrapper background-red" id="4">
+      <div class="stuff">
+        <h1>The Interface segregation principle</h1>
+        <p>
+          "Many client-specific interfaces are better than one general-purpose
+          interface."
+        </p>
+      </div>
+    </div>
+    <div class="contentWrapper background-green" id="5">
+      <div class="stuff">
+        <h1>The Dependency inversion principle</h1>
+        <p>"Depend upon abstractions, [not] concretions."</p>
+      </div>
+    </div>
+  </body>
+
+  </html>
